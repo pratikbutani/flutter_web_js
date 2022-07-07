@@ -81,6 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () async {
                 // Loader
                 String dataFromJS = await _jsHelper.callJSPromise();
+
                 print("dataFromJS ----------- $dataFromJS");
               },
             ),
